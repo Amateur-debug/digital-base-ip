@@ -1,0 +1,11 @@
+name: cocotb
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cocotb
+  - pytest
+  - verilator==5.022
+  - iverilog

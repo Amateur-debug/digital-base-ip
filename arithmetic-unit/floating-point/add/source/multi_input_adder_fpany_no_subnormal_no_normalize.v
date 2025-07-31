@@ -103,7 +103,7 @@ u_comp_tree(
 );
 ////////////////////////////////////////////////
 // get diff number
-wire [E - 1:0] exp_diff[NUM - 1:0];
+wire [E - 1:0] exp_diff[NUM:0];
 
 generate 
     for (i = 0; i < NUM + 1; i = i + 1) begin: diff
